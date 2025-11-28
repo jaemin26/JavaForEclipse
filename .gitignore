@@ -1,10 +1,8 @@
 # Eclipse settings
 .metadata
-.classpath
-.project
 /bin/
 # Target folders and build results
-/bin/
+
 /target/
 
 # Specific to Java/Maven/Gradle
