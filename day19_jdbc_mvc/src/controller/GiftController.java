@@ -199,7 +199,7 @@ public class GiftController { // controller : ~~~ DAO
 				System.out.println("\n\n 1.GNO \t 2.GNAME \t 3.G_START\t 4.G_END\t0.EXIT");
 				System.out.println("수정할 필드 번호 선택 : ");
 				int choice = sc.nextInt();
-				String up = null;
+				String up;
 				switch (choice) {
 				
 				case 1:
@@ -210,7 +210,8 @@ public class GiftController { // controller : ~~~ DAO
 				case 2:
 					System.out.println("수정할 GNAME : ");
 					up = sc.next();
-					stmt.execute("update " + className + " set gname = " + up + " where gno = " + gno);
+					stmt.execute("update " + className + " set gname = '" + up + "' where gno = " + gno);
+					
 					break b;
 				case 3:
 					System.out.println("수정할 G_START : ");
