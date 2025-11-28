@@ -2,7 +2,7 @@
 .metadata
 .classpath
 .project
-
+/bin/
 # Target folders and build results
 /bin/
 /target/
