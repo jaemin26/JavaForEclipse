@@ -1,0 +1,18 @@
+# Eclipse settings
+.metadata
+.classpath
+.project
+
+# Target folders and build results
+/bin/
+/target/
+
+# Specific to Java/Maven/Gradle
+*.jar
+*.war
+*.zip
+
+# Other common IDE files
+.DS_Store
+*.log
+*.swp
